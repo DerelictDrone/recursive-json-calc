@@ -1,0 +1,33 @@
+{
+	"settings": {
+		"optimized": true
+	},
+	"components": {
+	"Copper Cable": {"Uninsulated Copper Cable": 1, "Rubber": 1},
+	"Refined Iron": {"Iron":1},
+	"Electronic Circuit": {"Copper Cable":6,"Redstone":2,"Refined Iron":1},
+	"Advanced Circuit": {"Glowstone Dust":2, "Redstone":2, "Lapis Lazuli": 2, "Electronic Circuit": 1},
+	"Coal Dust": {"Coal": 1},
+	"Raw Carbon Fibre": {"Coal Dust": 4},
+	"Raw Carbon Mesh": {"Raw Carbon Fibre": 2},
+	"Carbon Plate": {"Raw Carbon Mesh": 1},
+	"Bronze Dust": {"Copper Dust": 1, "Tin Dust": 0.3},
+	"Bronze Ingot": {"Bronze Dust": 1},
+	"Mixed Metal Ingot": {"Refined Iron Ingot": 1.5, "Bronze Ingot": 1.5, "Tin Ingot": 1.5},
+	"Advanced Alloy": {"Mixed Metal Ingot": 1},
+	"Iridium Ore": {"UU Matter": 7},
+	"Iridium Plate": {"Iridium Ore": 4, "Advanced Alloy": 4, "Diamond": 1},
+	"Reinforced Stone": {"Stone": 8, "Advanced Alloy":1},
+	"Iridium Stone": {"Iridium Plate": 0.125, "Reinforced Stone":1},
+	"Rare Earth Chunk": {"Rare Earth Dust": 4, "Iron": 1},
+	"Dead Magnet": {"Rare Earth Chunk": 1},
+	"Magnet": {"Dead Magnet": 1},
+	"Plasma Core": {"Advanced Alloy": 16, "Magnet": 8, "Plasma Cell":1},
+	"PESD": {"Iridium Plate": 2, "Carbon Plate": 4, "Advanced Circuit": 2, "Plasma Core": 1},
+	"PESU": {"PESD": 3, "Iridium Stone": 4, "Iridium Plate":2 },
+	"Glass Fibre Cable": {"Glass":1.5, "Diamond": 0.25, "Redstone": 0.5},
+	"Frequency Transmitter": {"Electronic Circuit": 1, "Copper Cable": 1},
+	"Teleporter": {"Diamond": 1, "Advanced Circuit": 4, "Advanced Machine Block": 1, "Glass Fibre Cable": 2, "Frequency Transmitter": 1},
+	"Teleporter Hub": {"PESU":1, "Teleporter": 4, "Advanced Circuit": 4}
+	}
+}
